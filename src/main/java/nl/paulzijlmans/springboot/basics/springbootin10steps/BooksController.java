@@ -10,6 +10,6 @@ import java.util.List;
 public class BooksController {
     @GetMapping("/books")
     public List<Book> getAllBooks() {
-        return Collections.singletonList(new Book(1L, "Mastering Spring 5.0", "Ranga Karanam"));
+        return Collections.singletonList(new Book(1L, "Mastering Spring 5.3", "Ranga Karanam"));
     }
 }
